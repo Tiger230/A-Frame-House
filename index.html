@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Frame House</title>
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-plane width="100" height="100" color="green" rotation="-90"></a-plane>
+        <a-plane width="10" height="20" rotation="-90 0 90" position="0 0.001 -10" color="rgb(75, 38, 0)">
+            <a-box color="gray" height="10" width="10" depth="0.25" rotation="90" position="0 10 5">
+                <a-cylinder segments-radial="3" color="gray" rotation="-90 0 0" height="0.25" position="0 7.886751346 0"
+                    radius="5.773502692"></a-cylinder>
+            </a-box>
+            <a-box color="gray" height="10" width="10" depth="0.25" rotation="90" position="00 -10 5">
+                <a-cylinder segments-radial="3" color="gray" rotation="-90 0 0" height="0.25" position="0 7.886751346 0"
+                    radius="5.773502692">
+                </a-cylinder>
+            </a-box>
+            <a-box color="gray" position="4.875 0 5" rotation="0 90 90" width="20" height="10" depth="0.25">
+            </a-box>
+            <a-box color="gray" position="-4.875 0 9" rotation="0 90 90" width="2" height="2" depth="0.25">
+                <a-box color="gray" position="5.5 -1 0" rotation="0 0 0" width="3" height="4" depth="0.25">
+                    <a-box color="gray" position="3 -3 0" rotation="0 0 0" width="3" height="10" depth="0.25">
+                    </a-box>
+                    <a-box color="gray" position="-3 -3 0" rotation="0 0 0" width="3" height="10" depth="0.25">
+                    </a-box>
+                    <a-box color="gray" position="0 -6 0" width="3" height="4" depth="0.25">
+                    </a-box>
+                </a-box>
+                <a-box color="gray" position="-5.5 -1 0" rotation="0 0 0" width="3" height="4" depth="0.25">
+                    <a-box color="gray" position="3 -3 0" rotation="0 0 0" width="3" height="10" depth="0.25">
+                    </a-box>
+                    <a-box color="gray" position="-3 -3 0" rotation="0 0 0" width="3" height="10" depth="0.25">
+                    </a-box>
+                    <a-box color="gray" position="0 -6 0" width="3" height="4" depth="0.25">
+                    </a-box>
+                </a-box>
+            </a-box>
+            <a-box color="black" rotation="0 60 90" position="2.5 0 14.25" height="10" depth="0.25" width="21">
+            </a-box>
+            <a-box color="black" rotation="0 -60 90" position="-2.5 0 14.25" height="10" depth="0.25" width="21">
+            </a-box>
+        </a-plane>
+        <a-sky color="#E0F0FF"></a-sky>
+    </a-scene>
+</body>
+
+</html>
